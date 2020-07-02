@@ -3,7 +3,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Experience from '../components/Experience';
 import ProjectGroup from '../components/ProjectGroup';
-import Skills from '../components/skills';
+import Skills from '../components/Skills';
+import Education from '../components/Education';
+import Footer from '../components/Footer';
 
 import SEO from '../components/SEO';
 import '../styles.css';
@@ -24,9 +26,11 @@ const IndexPage = () => (
                 <ProjectGroup data={resume.projects} />
             </div>
             <div className='lg:col-start-6 lg:col-end-9'>
+                <Education data={resume.education} />
                 <Skills data={resume.skills} />
             </div>
         </div>
+        <Footer data={resume.social} />
     </div>
 );
 
