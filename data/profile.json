@@ -59,7 +59,7 @@
             ]
         },
         {
-            "title": "Software Development",
+            "title": "Software",
             "subskills": [
                 "Jira",
                 "Confluence",
@@ -67,7 +67,8 @@
                 "Jenkins",
                 "Git",
                 "GitHub",
-                "Apache Airflow"
+                "Apache Airflow",
+                "Salesforce"
             ]
         },
         {
@@ -116,10 +117,13 @@
             "description_cont": "Orchestrated automated ETL processes to and from Snowflake data warehouse that reduced the effective use of Google Compute Engine VMs for modeling purposes to less than two days per month.",
             "technology": [
                 "Python",
+                "Pandas",
+                "Scipy",
                 "Scikit-learn",
                 "AWS",
                 "GCloud",
                 "Snowflake",
+                "Docker",
                 "Flask",
                 "SQL",
                 "Jira",
