@@ -9,7 +9,7 @@ const Contact = ({ field, value }) => (
             <div className='flex items-center'>
                 <AiOutlineMail className='contact-icon' />
                 <a
-                    className='text-xl hover:text-blue-600'
+                    className='text-xl text-gray-900 hover:text-blue-600 focus:underline focus:text-blue-600 focus:outline-none'
                     href={`mailto:${value}`}
                     title='Email me'>
                     {value}
@@ -20,7 +20,7 @@ const Contact = ({ field, value }) => (
             <div className='flex items-center'>
                 <FiExternalLink className='contact-icon' />
                 <a
-                    className='text-xl hover:text-blue-600'
+                    className='text-xl text-gray-900 hover:text-blue-600 focus:underline focus:text-blue-600 focus:outline-none'
                     target='_blank'
                     href={value}
                     rel='noopener noreferrer'
@@ -32,7 +32,7 @@ const Contact = ({ field, value }) => (
         {field === 'location' && (
             <div className='flex items-center'>
                 <MdLocationCity className='contact-icon' />
-                <span className='text-xl'>{value}</span>
+                <span className='text-xl text-gray-900'>{value}</span>
             </div>
         )}
     </div>
