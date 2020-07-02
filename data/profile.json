@@ -11,6 +11,7 @@
                 "Python",
                 "R",
                 "Javascript",
+                "C++",
                 "Shell Scripting",
                 "HTML5",
                 "CSS3",
@@ -82,21 +83,38 @@
             "location": "Philadelphia, PA",
             "degree": "MS in Quantitative Finance/Business Analytics",
             "class": "Class of 2020",
-            "gpa": "3.96"
+            "gpa": "3.96",
+            "coursework": [
+                "Multivariate Analysis",
+                "Data Mining",
+                "Operations Research",
+                "Database Design",
+                "Machine Learning"
+            ]
         },
         {
             "institution": "City College of San Francisco",
             "location": "San Francisco, CA",
             "degree": "Post-Bach coursework in CS and Math",
             "class": "2017 - 2018",
-            "gpa": "4.0"
+            "gpa": "4.0",
+            "coursework": [
+                "Software Engineering",
+                "C++ Programming",
+                "Calculus I and II",
+                "Statistics and Probability"
+            ]
         },
         {
             "institution": "Alma Mater Studiorum - University of Bologna",
             "location": "Bologna, Italy",
             "degree": "BS in Management and Marketing",
             "class": "Class of 2016",
-            "gpa": ""
+            "coursework": [
+                "Business Intelligence and CRM",
+                "Marketing and Strategic Management",
+                "Market Analysis and User Research"
+            ]
         }
     ],
     "certifications": [
