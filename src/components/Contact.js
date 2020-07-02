@@ -16,19 +16,6 @@ const Contact = ({ field, value }) => (
                 </a>
             </div>
         )}
-        {field === 'website' && (
-            <div className='flex items-center'>
-                <FiExternalLink className='contact-icon' />
-                <a
-                    className='text-xl text-gray-900 hover:text-blue-600 focus:underline focus:text-blue-600 focus:outline-none'
-                    target='_blank'
-                    href={value}
-                    rel='noopener noreferrer'
-                    title='My website'>
-                    Personal Site
-                </a>
-            </div>
-        )}
         {field === 'location' && (
             <div className='flex items-center'>
                 <MdLocationCity className='contact-icon' />
