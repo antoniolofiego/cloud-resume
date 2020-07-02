@@ -8,7 +8,7 @@ const Header = ({ name, role, contacts }) => (
             <div className='flex flex-col lg:flex-row items-center'>
                 <div className='mx-10'>
                     <img
-                        className='object-cover object-center h-32 w-32 rounded-full mx-auto overflow-hidden border-4 border-col-grey'
+                        className='object-cover object-center h-32 w-32 rounded-full mx-auto overflow-hidden border-4 border-col-grey shadow-lg'
                         src='./profile.jpg'
                         alt='Antonio Lo Fiego'
                     />
@@ -17,7 +17,7 @@ const Header = ({ name, role, contacts }) => (
                     <h1 className='text-center lg:text-left text-4xl text-blue-700 max-w-7xl'>
                         {name}
                     </h1>
-                    <h2 className='text-center lg:text-left text-2xl'>
+                    <h2 className='text-center lg:text-left text-2xl text-grey-800'>
                         {role}
                     </h2>
                 </div>
