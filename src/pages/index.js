@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../components/Header';
+import Experience from '../components/Experience';
 
 import SEO from '../components/SEO';
 import '../styles.css';
@@ -15,6 +16,7 @@ const IndexPage = () => (
             role={resume.role}
             contacts={resume.contacts}
         />
+        <Experience data={resume.experience} />
     </div>
 );
 

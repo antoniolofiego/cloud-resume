@@ -17,7 +17,7 @@ const Header = ({ name, role, contacts }) => (
                     <h1 className='text-center lg:text-left text-4xl text-blue-700 max-w-7xl'>
                         {name}
                     </h1>
-                    <h2 className='text-center lg:text-left text-2xl text-grey-800'>
+                    <h2 className='text-center lg:text-left text-2xl text-grey-'>
                         {role}
                     </h2>
                 </div>

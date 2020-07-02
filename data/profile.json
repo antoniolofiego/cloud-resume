@@ -30,9 +30,7 @@
                 "React",
                 "Gatsby",
                 "TailwindCSS",
-                "Bootstrap",
-                "Flask",
-                "Django"
+                "Flask"
             ]
         },
         {
@@ -45,8 +43,7 @@
                 "TensorFlow",
                 "Keras",
                 "PyCaret",
-                "PySpark",
-                "Hyperopt"
+                "PySpark"
             ]
         },
         {
@@ -114,14 +111,14 @@
         {
             "role": "Data Science Intern",
             "company": "Revzilla ",
+            "location": "Philadelphia, PA",
             "description": "Designed, developed, and tested a scalable Python-based machine learning algorithm for inventory allocation optimization that is deployed on Google Cloud tech stack and is forecasted to save up to $1.5MM/yr. in fulfillment costs.",
-            "description-cont": "Orchestrated automated ETL processes to and from Snowflake data warehouse that reduced the effective use of Google Compute Engine VMs for modeling purposes to less than two days per month.",
+            "description_cont": "Orchestrated automated ETL processes to and from Snowflake data warehouse that reduced the effective use of Google Compute Engine VMs for modeling purposes to less than two days per month.",
             "technology": [
                 "Python",
                 "Scikit-learn",
-                "Scipy",
                 "AWS",
-                "Google Cloud",
+                "GCloud",
                 "Snowflake",
                 "Flask",
                 "SQL",
@@ -134,6 +131,7 @@
         {
             "role": "Graduate Teaching Assistant",
             "company": "Drexel University - LeBow College of Business",
+            "location": "Philadelphia, PA",
             "description": " TA'd three sections of graduate-level Multivariate Analysis class (STAT 630) by leading office hours and grading problem sets/case studies on various topics (PCA, Factor Analysis, LDA, Logistic Regression, Decision Trees/Random Forest, KNN and hierarchical clustering) for 60+ grad students.",
             "technology": ["R"],
             "start": "1/2020",
@@ -142,8 +140,9 @@
         {
             "role": "Data Analyst Intern",
             "company": "Ben Franklin Technology Partners",
+            "location": "Philadelphia, PA",
             "description": "Designed, developed and deployed a highly automated valuation and portfolio management framework, written in Python and VBA, that has cut equity valuation time by 75% for each of the portfolio companies quarterly.",
-            "description-cont": "Performed equity valuation of 175+ venture-backed start-up healthcare and technology companies. Used waterfall and breakpoint analyses, comparables approach, and Black Scholes Option Pricing Model.",
+            "description_cont": "Performed equity valuation of 175+ venture-backed start-up healthcare and technology companies. Used waterfall and breakpoint analyses, comparables approach, and Black Scholes Option Pricing Model.",
             "technology": ["Python", "VBA", "Salesforce"],
             "start": "6/2019",
             "end": "12/2019"
@@ -151,20 +150,12 @@
         {
             "role": "Graduate Research Assistant",
             "company": "Drexel University - LeBow College of Business",
+            "location": "Philadelphia, PA",
             "description": "Conducted extensive literature review related to statistical/algorithmic data confidentiality and quantitative privacy-preserving methods.",
-            "description-cont": "Developed expertise in modern data confidentiality frameworks (such as differential privacy, k-anonymity, etc...) and various business-case data treatments, specifically confidential microdata publication and synthetic data generation, for use in academic research and publication.",
+            "description_cont": "Developed expertise in modern data confidentiality frameworks (such as differential privacy, k-anonymity, etc...) and various business-case data treatments, specifically confidential microdata publication and synthetic data generation, for use in academic research and publication.",
             "technology": ["Python", "R"],
             "start": "4/2019",
             "end": "6/2019"
-        },
-        {
-            "role": "Director of Finance and Legalities",
-            "company": "AIESEC in Italy",
-            "description": "Managed a budget of €15,000 and designed a debt recollection plan that enabled to recollect over 75% of aging accounts.",
-            "description-cont": "Migrated the admin infrastructure to Google Cloud, halving quarter- and year-end close process time and ops tracking.",
-            "technology": ["Google Cloud", "SQL"],
-            "start": "12/2015",
-            "end": "10/2016"
         }
     ],
     "social": [
