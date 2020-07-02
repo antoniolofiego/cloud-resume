@@ -32,7 +32,7 @@ const Job = ({ item, i }) => {
                         return (
                             <button
                                 id={`${value + index}`}
-                                class='border-2 hover:bg-gray-300 font-bold py-1 px-4 mr-2 my-2 rounded-full hover:border-none items-center shadow-md'>
+                                class='border-2 hover:bg-gray-300 font-bold py-1 px-4 mr-2 my-2 rounded-full hover:border-none items-center shadow-md focus:outline-none focus:bg-gray-300'>
                                 {value}
                             </button>
                         );

@@ -9,7 +9,7 @@ const Project = ({ item, i }) => {
             <p className='pb-2'>{item.description}</p>
             <div className='flex'>
                 <a
-                    className='text-white bg-blue-500 hover:bg-blue-700 font-bold font why py-1 px-4 mr-2 my-2 rounded-full hover:border-none items-center'
+                    className='text-white bg-blue-500 hover:bg-blue-700 font-bold font why py-1 px-4 mr-2 my-2 rounded-full hover:border-none items-center shadow-lg focus:bg-blue-700 focus:outline-none'
                     href={item.link}
                     target='_blank'
                     rel='noopener noreferrer'>
