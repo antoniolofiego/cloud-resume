@@ -2,7 +2,7 @@ import React from 'react';
 
 const Job = ({ item, i }) => {
     return (
-        <article className='my-3' key={`${item.company}-${i}`}>
+        <article className='mt-4' key={`${item.company}-${i}`}>
             <div className='flex justify-between items-center'>
                 <span className='font-bold text-xl'>{item.role}</span>
                 <span>{item.location}</span>
@@ -17,8 +17,8 @@ const Job = ({ item, i }) => {
                 <li
                     className={
                         'list-none ' + item.description_cont
-                            ? 'pt-6 py-2'
-                            : 'py-2'
+                            ? 'pt-4 pb-2'
+                            : 'py-4'
                     }>
                     {item.description}
                 </li>
