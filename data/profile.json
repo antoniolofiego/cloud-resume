@@ -12,7 +12,7 @@
                 "R",
                 "Javascript",
                 "C++",
-                "Shell Scripting",
+                "Shell",
                 "HTML5",
                 "CSS3",
                 "Typescript",
@@ -26,12 +26,12 @@
         {
             "title": "Frameworks",
             "subskills": [
+                "React",
                 "Node",
                 "Express",
-                "React",
                 "Gatsby",
-                "TailwindCSS",
-                "Flask"
+                "Flask",
+                "TailwindCSS"
             ]
         },
         {
