@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Experience from '../components/Experience';
+import ProjectGroup from '../components/ProjectGroup';
 
 import SEO from '../components/SEO';
 import '../styles.css';
@@ -17,6 +18,7 @@ const IndexPage = () => (
             contacts={resume.contacts}
         />
         <Experience data={resume.experience} />
+        <ProjectGroup data={resume.projects} />
     </div>
 );
 
