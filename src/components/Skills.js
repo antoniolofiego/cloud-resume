@@ -8,7 +8,7 @@ const Skills = ({ data }) => {
                 {data.map((item, i) => (
                     <div className='mt-4 mb-6'>
                         <h3
-                            className='text-lg tracking-wide font-semibold mb-2'
+                            className='text-lg tracking-wide font-bold mb-2'
                             id={item.title + i}>
                             {item.title}
                         </h3>
