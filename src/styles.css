@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.contact-icon {
+    @apply w-4 h-4 mx-2;
+}
+
+@tailwind utilities;

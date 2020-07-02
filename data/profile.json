@@ -1,0 +1,206 @@
+{
+    "contacts": {
+        "email": "alofiego@hey.com",
+        "website": "https://antoniolofiego.me",
+        "location": "Philadelphia, PA"
+    },
+    "skills": [
+        {
+            "title": "Languages",
+            "subskills": [
+                "Python",
+                "R",
+                "Javascript",
+                "Shell Scripting",
+                "HTML5",
+                "CSS3",
+                "Typescript",
+                "Sass"
+            ]
+        },
+        {
+            "title": "Cloud Solutions",
+            "subskills": ["AWS", "Google Cloud (Compute Engine)", "Snowflake"]
+        },
+        {
+            "title": "Frameworks",
+            "subskills": [
+                "Node",
+                "Express",
+                "React",
+                "Gatsby",
+                "TailwindCSS",
+                "Bootstrap",
+                "Flask",
+                "Django"
+            ]
+        },
+        {
+            "title": "Data Science/Machine Learning",
+            "subskills": [
+                "Pandas",
+                "Numpy",
+                "Scipy",
+                "Scikit-Learn",
+                "TensorFlow",
+                "Keras",
+                "PyCaret",
+                "PySpark",
+                "Hyperopt"
+            ]
+        },
+        {
+            "title": "Databases",
+            "subskills": [
+                "PostgreSQL",
+                "MySQL",
+                "Mongodb",
+                "Redis",
+                "AWS RDS",
+                "Aurora",
+                "DynamoDB"
+            ]
+        },
+        {
+            "title": "Software Development",
+            "subskills": [
+                "Jira",
+                "Confluence",
+                "Docker",
+                "Jenkins",
+                "Git",
+                "GitHub",
+                "Apache Airflow"
+            ]
+        },
+        {
+            "title": "Data Visualization",
+            "subskills": ["Matplotlib", "Seaborn", "Tableau", "PowerBI"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Drexel University - LeBow College of Business",
+            "location": "Philadelphia, PA",
+            "degree": "MS in Quantitative Finance/Business Analytics",
+            "class": "Class of 2020",
+            "gpa": "3.96"
+        },
+        {
+            "institution": "City College of San Francisco",
+            "location": "San Francisco, CA",
+            "degree": "Post-Bach coursework in CS and Math",
+            "class": "2017 - 2018",
+            "gpa": "4.0"
+        },
+        {
+            "institution": "Alma Mater Studiorum - University of Bologna",
+            "location": "Bologna, Italy",
+            "degree": "BS in Management and Marketing",
+            "class": "Class of 2016",
+            "gpa": ""
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AWS Certfied Cloud Practitioner",
+            "provider": "Amazon Web Services",
+            "start": "6/2020",
+            "end": "6/2023",
+            "link": "https://www.youracclaim.com/badges/f3973229-ab07-4804-a1cb-e83d746920f8/linked_in"
+        }
+    ],
+    "experience": [
+        {
+            "role": "Data Science Intern",
+            "company": "Revzilla ",
+            "description": "Designed, developed, and tested a scalable Python-based machine learning algorithm for inventory allocation optimization that is deployed on Google Cloud tech stack and is forecasted to save up to $1.5MM/yr. in fulfillment costs.",
+            "description-cont": "Orchestrated automated ETL processes to and from Snowflake data warehouse that reduced the effective use of Google Compute Engine VMs for modeling purposes to less than two days per month.",
+            "technology": [
+                "Python",
+                "Scikit-learn",
+                "Scipy",
+                "AWS",
+                "Google Cloud",
+                "Snowflake",
+                "Flask",
+                "SQL",
+                "Jira",
+                "Confluence"
+            ],
+            "start": "12/2019",
+            "end": "3/2020"
+        },
+        {
+            "role": "Graduate Teaching Assistant",
+            "company": "Drexel University - LeBow College of Business",
+            "description": " TA'd three sections of graduate-level Multivariate Analysis class (STAT 630) by leading office hours and grading problem sets/case studies on various topics (PCA, Factor Analysis, LDA, Logistic Regression, Decision Trees/Random Forest, KNN and hierarchical clustering) for 60+ grad students.",
+            "technology": ["R"],
+            "start": "1/2020",
+            "end": "3/2020"
+        },
+        {
+            "role": "Data Analyst Intern",
+            "company": "Ben Franklin Technology Partners",
+            "description": "Designed, developed and deployed a highly automated valuation and portfolio management framework, written in Python and VBA, that has cut equity valuation time by 75% for each of the portfolio companies quarterly.",
+            "description-cont": "Performed equity valuation of 175+ venture-backed start-up healthcare and technology companies. Used waterfall and breakpoint analyses, comparables approach, and Black Scholes Option Pricing Model.",
+            "technology": ["Python", "VBA", "Salesforce"],
+            "start": "6/2019",
+            "end": "12/2019"
+        },
+        {
+            "role": "Graduate Research Assistant",
+            "company": "Drexel University - LeBow College of Business",
+            "description": "Conducted extensive literature review related to statistical/algorithmic data confidentiality and quantitative privacy-preserving methods.",
+            "description-cont": "Developed expertise in modern data confidentiality frameworks (such as differential privacy, k-anonymity, etc...) and various business-case data treatments, specifically confidential microdata publication and synthetic data generation, for use in academic research and publication.",
+            "technology": ["Python", "R"],
+            "start": "4/2019",
+            "end": "6/2019"
+        },
+        {
+            "role": "Director of Finance and Legalities",
+            "company": "AIESEC in Italy",
+            "description": "Managed a budget of €15,000 and designed a debt recollection plan that enabled to recollect over 75% of aging accounts.",
+            "description-cont": "Migrated the admin infrastructure to Google Cloud, halving quarter- and year-end close process time and ops tracking.",
+            "technology": ["Google Cloud", "SQL"],
+            "start": "12/2015",
+            "end": "10/2016"
+        }
+    ],
+    "social": [
+        {
+            "service": "linkedin",
+            "url": "https://www.linkedin.com/in/antoniolofiego"
+        },
+        {
+            "service": "twitter",
+            "url": "https://twitter.com/antonio_lofiego"
+        },
+        {
+            "service": "github",
+            "url": "https://github.com/antoniolofiego"
+        }
+    ],
+    "role": "AWS Certified Data Professional and Software Engineer",
+    "projects": [
+        {
+            "name": "Cloud Resume",
+            "company": "Open source",
+            "description": "The website you are currently looking at. The frontend is developend in Gatsby, React, Tailwind CSS, while the backend is developed on AWS, leveraging Python Lambda functions, DynamoDB, SAM templates, API Gateway and S3.",
+            "link": "https://github.com/"
+        },
+        {
+            "name": "AWS Certification Notes",
+            "company": "Open source",
+            "description": "I open-sourced all the notes I took while preparing for my AWS certifications. I used Notion and built a Python script that automatically retrieves the markdown version of the current noteset and pushes it to my GitHub repo.",
+            "link": "https://github.com/antoniolofiego/AWSCertificationsNotes"
+        },
+        {
+            "name": "Drug Overdose Analysis in PA",
+            "company": "Drexel University",
+            "description": "I performed extensive data cleaning, feature engineering, visualization, and modeling to identify key factors in survival odds for overdose cases in Pennsylvania using Random Forest classification and SHAP explainers in Python.",
+            "link": "https://github.com/antoniolofiego/Drug-Overdose-Analysis-in-PA"
+        }
+    ],
+    "fullname": "Antonio Lo Fiego"
+}
