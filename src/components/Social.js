@@ -13,6 +13,7 @@ const Social = ({ social }) => {
                     href={social.url}
                     target='_blank'
                     key={social.service}
+                    rel='noreferrer'
                     className='mr-4'>
                     <AiFillLinkedin size={32} />
                 </a>
@@ -22,6 +23,7 @@ const Social = ({ social }) => {
                     href={social.url}
                     target='_blank'
                     key={social.service}
+                    rel='noreferrer'
                     className='mr-4'>
                     <AiOutlineTwitter size={32} />
                 </a>
@@ -31,6 +33,7 @@ const Social = ({ social }) => {
                     href={social.url}
                     target='_blank'
                     key={social.service}
+                    rel='noreferrer'
                     className='mr-4'>
                     <AiOutlineGithub size={32} />
                 </a>

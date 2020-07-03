@@ -4,7 +4,7 @@ import Contact from './Contact';
 
 const Header = ({ name, role, contacts }) => (
     <header className='my-10'>
-        <div className='lg:flex lg:justify-between content-center mx-auto max-w-7xl lg:py-6 py-4 lg:border-b-2'>
+        <div className='lg:flex lg:justify-between items-center content-center mx-auto max-w-7xl lg:py-6 py-4 lg:border-b-2'>
             <div className='flex flex-col lg:flex-row items-center'>
                 <div className='mx-10'>
                     <img
@@ -22,7 +22,19 @@ const Header = ({ name, role, contacts }) => (
                     </h2>
                 </div>
             </div>
-            <div className='flex flex-col mx-10 my-5 lg:my-0 lg:justify-center items-center lg:items-start'>
+            <div className='my-5 lg:my-0'>
+                <a
+                    href='https://www.youracclaim.com/badges/f3973229-ab07-4804-a1cb-e83d746920f8/linked_in'
+                    target='_blank'
+                    rel='noreferrer'>
+                    <img
+                        className='h-24 w-24 mx-auto'
+                        src='./aws_ccp.png'
+                        alt='AWS Certified Cloud Practitioner'
+                    />
+                </a>
+            </div>
+            <div className='flex flex-col mx-10 lg:my-0 lg:justify-center items-center lg:items-start'>
                 {contacts &&
                     Object.keys(contacts).map((key) => (
                         <Contact key={key} field={key} value={contacts[key]} />

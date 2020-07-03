@@ -199,8 +199,8 @@
         {
             "name": "Cloud Resume",
             "company": "Open source",
-            "description": "The website you are currently looking at. The frontend is developend in Gatsby, React, Tailwind CSS, while the backend is developed on AWS, leveraging Python Lambda functions, DynamoDB, SAM templates, API Gateway and S3.",
-            "link": "https://github.com/"
+            "description": "The website you are currently looking at. The frontend is developed in Gatsby, React, Tailwind CSS, while the backend is developed on AWS, leveraging Python Lambda functions, DynamoDB, SAM templates, API Gateway and S3.",
+            "link": "https://github.com/antoniolofiego/antoniolofiego.github.io"
         },
         {
             "name": "AWS Certification Notes",

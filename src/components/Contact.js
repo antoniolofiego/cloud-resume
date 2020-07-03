@@ -1,6 +1,5 @@
 import React from 'react';
 import { MdLocationCity } from 'react-icons/md';
-import { FiExternalLink } from 'react-icons/fi';
 import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = ({ field, value }) => (
@@ -13,19 +12,6 @@ const Contact = ({ field, value }) => (
                     href={`mailto:${value}`}
                     title='Email me'>
                     {value}
-                </a>
-            </div>
-        )}
-        {field === 'website' && (
-            <div className='flex items-center'>
-                <FiExternalLink className='contact-icon' />
-                <a
-                    className='text-xl text-gray-900 hover:text-blue-600 focus:underline focus:text-blue-600 focus:outline-none'
-                    target='_blank'
-                    href={value}
-                    rel='noopener noreferrer'
-                    title='My website'>
-                    Personal Site
                 </a>
             </div>
         )}
