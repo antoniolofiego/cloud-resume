@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from './Social';
+import VisitorsCounter from './VisitorsCounter';
 
 const Footer = ({ data }) => {
     return (
@@ -15,6 +16,7 @@ const Footer = ({ data }) => {
                     <span className='inline-block mr-1'>by</span>
                     <span className='font-bold'>Antonio Lo Fiego</span>
                 </div>
+                <VisitorsCounter />
                 <div className='flex justify-center'>
                     {data &&
                         data.map((social, i) => <Social social={social} />)}
