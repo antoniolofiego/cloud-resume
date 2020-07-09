@@ -18,9 +18,9 @@ class VisitorsCounter extends Component {
                 }
             )
                 .then((response) => response.json())
-                .then((data) => this.setState({ visitors: data }));
+                .then((data) => this.setState({ visitors: data['visitors'] }));
         } catch (error) {
-            this.setState({ visitors: error });
+            this.setState({ error });
         }
     }
 
