@@ -22,15 +22,25 @@ const Header = ({ name, role, contacts }) => (
                     </h2>
                 </div>
             </div>
-            <div className='my-5 lg:my-0'>
+            <div className='my-5 lg:my-0 flex justify-center'>
                 <a
-                    href='https://www.youracclaim.com/badges/f3973229-ab07-4804-a1cb-e83d746920f8/linked_in'
+                    href='https://www.youracclaim.com/badges/f3973229-ab07-4804-a1cb-e83d746920f8/'
                     target='_blank'
                     rel='noreferrer'>
                     <img
                         className='h-24 w-24 mx-auto'
                         src='./aws_ccp.png'
                         alt='AWS Certified Cloud Practitioner'
+                    />
+                </a>
+                <a
+                    href='https://www.youracclaim.com/badges/654b7db3-c713-4946-b3bb-461aa7df9adf/'
+                    target='_blank'
+                    rel='noreferrer'>
+                    <img
+                        className='h-24 w-24 mx-auto'
+                        src='./aws_ssa.png'
+                        alt='AWS Solutions Architect - Associate'
                     />
                 </a>
             </div>
