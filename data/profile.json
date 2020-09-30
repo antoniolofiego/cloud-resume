@@ -119,12 +119,26 @@
     ],
     "certifications": [
         {
+            "name": "AWS Certfied Developer - Associate",
+            "provider": "Amazon Web Services",
+            "start": "8/2020",
+            "end": "8/2023",
+            "link": "https://www.youracclaim.com/badges/9074b44f-2ac9-43ac-b635-7ecedf86c7df/public_url"
+        },
+        {
+            "name": "AWS Solutions Architect - Associate",
+            "provider": "Amazon Web Services",
+            "start": "7/2020",
+            "end": "7/2023",
+            "link": "https://www.youracclaim.com/badges/654b7db3-c713-4946-b3bb-461aa7df9adf/public_url"
+        },
+        {
             "name": "AWS Certfied Cloud Practitioner",
             "provider": "Amazon Web Services",
-            "start": "6/2020",
-            "end": "6/2023",
-            "link": "https://www.youracclaim.com/badges/f3973229-ab07-4804-a1cb-e83d746920f8/linked_in"
-        }
+            "start": "8/2020",
+            "end": "8/2023",
+            "link": "https://www.youracclaim.com/badges/975321a5-581a-4b80-9246-151dea264454/public_url"
+        },
     ],
     "experience": [
         {
